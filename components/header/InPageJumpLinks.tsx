@@ -9,8 +9,8 @@ function JumpLinkItem({ text, href }: JumpLinkItemProps) {
   return (
     <li>
       <a className="group flex items-center py-3" href={href}>
-        <span className="nav-indicator mr-4 h-px w-8 bg-accent transition-all group-hover:w-16 group-hover:bg-text group-focus-visible:w-16 group-focus-visible:bg-text motion-reduce:transition-none"></span>
-        <span className="nav-text text-xs font-bold uppercase tracking-widest text-accent group-hover:text-text group-focus-visible:text-text">
+        <span className="nav-indicator mr-4 h-px w-8 bg-vague transition-all group-hover:w-16 group-hover:bg-text group-focus-visible:w-16 group-focus-visible:bg-text motion-reduce:transition-none"></span>
+        <span className="nav-text text-xs font-bold uppercase tracking-widest text-vague group-hover:text-text group-focus-visible:text-text">
           {text}
         </span>
       </a>
@@ -20,7 +20,7 @@ function JumpLinkItem({ text, href }: JumpLinkItemProps) {
 
 function InPageJumpLinks() {
   const links = [
-    { text: "About", href: "#about" },
+    { text: "About Me", href: "#about" },
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
   ];
