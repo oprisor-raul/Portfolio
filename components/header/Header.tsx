@@ -1,4 +1,6 @@
 import React from "react";
+import InPageJumpLinks from "./InPageJumpLinks";
+import SocialMediaLinks from "./SocialMediaLinks";
 
 function Header() {
   return (
@@ -9,9 +11,10 @@ function Header() {
       <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">
         Full-stack developer
       </h2>
-      <p className="mt-4 max-w-xs text-text leading-normal">
+      <p className="mt-4 max-w-xs text-accent leading-normal">
         I build bridges between user needs and technological capabilities.
       </p>
+      <InPageJumpLinks />
     </header>
   );
 }
