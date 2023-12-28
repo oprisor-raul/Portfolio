@@ -21,7 +21,7 @@ const CursorFollowerBackground = () => {
 
   return (
     <div
-      className="fixed inset-0 z-30 pointer-events-none transition duration-300"
+      className="hidden lg:block fixed inset-0 z-30 pointer-events-none transition duration-300"
       style={{
         background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(162, 145, 219, 0.06), transparent 55%)`,
       }}
