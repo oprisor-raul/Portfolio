@@ -1,6 +1,6 @@
 import CursorFollowerBackground from "@/components/CursorFollowerBackground";
-import Header from "@/components/header/Header";
-import Main from "@/components/main/Main";
+import Header from "@/components/welcomePage/header/Header";
+import Main from "@/components/welcomePage/main/Main";
 
 export default function Home() {
   return (

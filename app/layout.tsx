@@ -6,8 +6,8 @@ import AppWrapper from "@/components/AppWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Raul-Alexandru Oprișor",
-  description: "Portfolio of Raul-Alexandru Oprisor, Full Stack Developer",
+  title: "Oprișor Raul-Alexandru",
+  description: "Portfolio of Oprisor Raul-Alexandru, Full Stack Developer",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <AppWrapper>{children}</AppWrapper>
       </body>

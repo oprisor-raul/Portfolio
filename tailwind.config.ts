@@ -18,7 +18,7 @@ const config: Config = {
         background: "#111111",
         primary: "#C6B6FB",
         secondary: "#464646",
-        vague: "#999999",
+        vague: "#9D9D9D",
       },
     },
   },

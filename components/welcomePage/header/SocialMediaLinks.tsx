@@ -37,17 +37,17 @@ function SocialMediaLinks() {
       <SocialMediaLinkItem
         href="https://github.com/oprisor-raul"
         ariaLabel="GitHub (opens in a new tab)"
-        Icon={<SvgGithub className="fill-vague hover:fill-text" />}
+        Icon={<SvgGithub className="fill-vague hover:fill-primary" />}
       />
       <SocialMediaLinkItem
         href="https://linkedin.com/in/oprisorraul/"
         ariaLabel="Linkedin (opens in a new tab)"
-        Icon={<SvgLinkedin className="fill-vague hover:fill-text" />}
+        Icon={<SvgLinkedin className="fill-vague hover:fill-primary" />}
       />
       <SocialMediaLinkItem
         href="mailto:raul@oprisor.dev"
         ariaLabel="Mail (opens in a new tab)"
-        Icon={<SvgMail className="fill-vague hover:fill-text" />}
+        Icon={<SvgMail className="fill-vague hover:fill-primary" />}
       />
     </ul>
   );
