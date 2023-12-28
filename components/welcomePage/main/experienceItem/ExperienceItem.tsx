@@ -30,7 +30,7 @@ const ExperienceItem: React.FC<ExperienceItemData> = ({
           <p className="mt-2 text-sm text-vague leading-normal">
             {description}
           </p>
-          {links && links.length > 0 && <ListLinks links={links} />}
+          <ListLinks links={links} />
           <ListTechnologies technologies={technologies} />
         </div>
       </div>

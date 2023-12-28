@@ -22,7 +22,9 @@ const ListLinks: React.FC<ListLinksProps> = ({ links }) => {
               aria-hidden="true"
               viewBox="0 0 20 20"
             />
-            <span>{link.title}</span>
+            <span className="hover:text-primary focus-visible:text-primary">
+              {link.title}
+            </span>
           </a>
         </li>
       ))}

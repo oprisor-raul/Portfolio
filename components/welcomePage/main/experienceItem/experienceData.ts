@@ -2,7 +2,7 @@ import { ExperienceItemData } from "@/types";
 
 export const experienceData: ExperienceItemData[] = [
   {
-    startDate: "Oct 2023",
+    startDate: "Oct\u00A02023",
     endDate: "Present",
     workplace: "Ciconia Systems GmbH",
     workplaceUrl: "https://ciconia-systems.com/",
@@ -13,8 +13,8 @@ export const experienceData: ExperienceItemData[] = [
     links: [],
   },
   {
-    startDate: "Sep 2023",
-    endDate: "Oct 2023",
+    startDate: "Sep\u00A02023",
+    endDate: "Oct\u00A02023",
     workplace: "Ciconia Systems GmbH",
     workplaceUrl: "https://ciconia-systems.com/",
     positionTitle: "Intern Full-Stack Developer",
@@ -33,8 +33,8 @@ export const experienceData: ExperienceItemData[] = [
     ],
   },
   {
-    startDate: "Sep 2021",
-    endDate: "Jul 2024",
+    startDate: "Sep\u00A02021",
+    endDate: "Jul\u00A02024",
     workplace: "University „Babeș-Bolyai”",
     workplaceUrl: "https://cs.ubbcluj.ro/",
     positionTitle: "Computer Science Student (in German)",

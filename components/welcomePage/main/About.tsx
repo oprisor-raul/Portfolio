@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+      className="mb-16 scroll-mt-16 md:mb-24 lg:mb-30 lg:scroll-mt-24"
       aria-label="About me"
     >
       <MobileHeader title="ABOUT ME" />
@@ -26,7 +26,7 @@ function About() {
           Lately, I&apos;m focusing on sharpening my full-stack development
           skills. At{" "}
           <a
-            className="text-primary border-b border-transparent pb-px transition group-hover:border-primary motion-reduce:transition-none"
+            className="text-primary border-b border-transparent pb-px transition hover:border-primary  motion-reduce:transition-none"
             href="https://ciconia-systems.com/"
             target="_blank"
             rel="noreferrer noopener"
