@@ -1,19 +1,10 @@
 import React from "react";
 import ExperienceItemTitleAndPosition from "./ExperienceItemTitleAndPosition";
 import ListTechnologies from "./ListTechnologies";
+import ListLinks from "./ListLinks";
+import { ExperienceItemData } from "@/types";
 
-interface ExperienceItemProps {
-  startDate: string;
-  endDate: string;
-  workplace: string;
-  workplaceUrl: string;
-  positionTitle: string;
-  description: string;
-  technologies: string[];
-  links: { url: string; title: string }[];
-}
-
-const ExperienceItem: React.FC<ExperienceItemProps> = ({
+const ExperienceItem: React.FC<ExperienceItemData> = ({
   startDate,
   endDate,
   workplace,
@@ -39,6 +30,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
           <p className="mt-2 text-sm text-vague leading-normal">
             {description}
           </p>
+          {links && links.length > 0 && <ListLinks links={links} />}
           <ListTechnologies technologies={technologies} />
         </div>
       </div>

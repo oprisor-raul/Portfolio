@@ -1,8 +1,8 @@
 import * as React from "react";
 
-interface SvgArrowProps extends React.SVGProps<SVGSVGElement> {}
+interface SvgTopArrowProps extends React.SVGProps<SVGSVGElement> {}
 
-const SvgArrow: React.FC<SvgArrowProps> = (props) => (
+const SvgTopArrow: React.FC<SvgTopArrowProps> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} {...props}>
     <path
       fillRule="evenodd"
@@ -12,4 +12,4 @@ const SvgArrow: React.FC<SvgArrowProps> = (props) => (
   </svg>
 );
 
-export default SvgArrow;
+export default SvgTopArrow;

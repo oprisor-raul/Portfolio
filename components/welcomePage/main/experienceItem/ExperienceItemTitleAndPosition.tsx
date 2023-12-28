@@ -1,5 +1,5 @@
 import React from "react";
-import SvgArrow from "@/public/svg/SvgArrow";
+import SvgArrow from "@/public/svg/SvgTopArrow";
 
 interface ExperienceItemTitleAndPositionProps {
   workplace: string;

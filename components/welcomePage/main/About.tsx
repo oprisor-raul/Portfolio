@@ -26,7 +26,7 @@ function About() {
           Lately, I&apos;m focusing on sharpening my full-stack development
           skills. At{" "}
           <a
-            className="text-primary hover:bg-primary hover:text-background focus-visible:bg-primary focus-visible:text-background transition duration-300 motion-reduce:transition-none"
+            className="text-primary border-b border-transparent pb-px transition group-hover:border-primary motion-reduce:transition-none"
             href="https://ciconia-systems.com/"
             target="_blank"
             rel="noreferrer noopener"
