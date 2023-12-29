@@ -4,6 +4,7 @@ import HoverHighlightCard from "../../common/HoverHighlightCard";
 import SvgTopArrow from "@/public/svg/SvgTopArrow";
 import Image from "next/image";
 import ListTechnologies from "../../common/ListTechnologies";
+import ListLinks from "@/components/common/ListLinks";
 
 const ProjectItem: React.FC<ProjectData> = ({
   title,
@@ -12,10 +13,17 @@ const ProjectItem: React.FC<ProjectData> = ({
   technologies,
   thumbnailUrl,
   slug,
+  links,
 }) => {
+  const hasThumbnail = thumbnailUrl && thumbnailUrl !== "";
+
   return (
     <HoverHighlightCard>
-      <div className="z-10 sm:order-2 sm:col-span-6">
+      <div
+        className={`z-10 ${
+          hasThumbnail ? "sm:order-2 sm:col-span-6" : "sm:col-span-full"
+        }`}
+      >
         <h3>
           <a
             className="inline-flex items-baseline font-medium leading-tight text-text hover:text-primary focus-visible:text-primary group/link"
@@ -36,16 +44,20 @@ const ProjectItem: React.FC<ProjectData> = ({
           </a>
         </h3>
         <p className="mt-2 text-sm leading-normal">{description}</p>
+        <ListLinks links={links} />
         <ListTechnologies technologies={technologies} />
+        <p>{}</p>
       </div>
-      <Image
-        className="mt-6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 sm:mt-0"
-        src={thumbnailUrl}
-        alt={title}
-        width={600}
-        height={150}
-        quality={100}
-      />
+      {hasThumbnail && (
+        <Image
+          className="mt-6 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 sm:mt-0"
+          src={thumbnailUrl}
+          alt={title}
+          width={600}
+          height={150}
+          quality={100}
+        />
+      )}
     </HoverHighlightCard>
   );
 };

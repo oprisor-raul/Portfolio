@@ -18,4 +18,5 @@ export interface ProjectData {
   thumbnailUrl: string;
   slug: string;
   timeFrame: string;
+  links: Array<{ url: string; title: string }>;
 }

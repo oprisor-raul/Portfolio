@@ -12,7 +12,8 @@ export const projectData: ProjectData[] = [
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/sZ85driN?inline=true",
     slug: "affectune",
-    timeFrame: "Nov 2023 - Dec 2023",
+    timeFrame: "Nov\u00A02023 - Jan\u00A02024",
+    links: [],
   },
   {
     title: "Minesweeper",
@@ -25,7 +26,35 @@ export const projectData: ProjectData[] = [
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/legs0tOg?inline=true",
     slug: "bomb-bonanza",
-    timeFrame: "Aug 2022",
+    timeFrame: "Aug\u00A02022",
+    links: [],
+  },
+  {
+    title: "AI-Powered Web Crawler w/ Mannheim University: CAEN Code Detection",
+    projectUrl: "https://www.uni-mannheim.de/en/",
+    description:
+      "The focus is to deploy an AI-enabled web crawler to systematically search through business websites and Wikipedia pages, extract pertinent information, and determine the corresponding CAEN codes indicative of a company's operational and structural characteristics.",
+    shortDescription:
+      "Developing an AI web crawler to analyze business websites, extracting essential data to identify CAEN codes reflecting company operations and structures.",
+    technologies: ["Java", "Python"],
+    thumbnailUrl:
+      "https://files.oprisor.dev/api/public/dl/zZ7s9gao?inline=true",
+    slug: "AI-web-crawler",
+    timeFrame: "Oct\u00A02023 - Jan\u00A02024",
+    links: [],
+  },
+  {
+    title: "Audiophile Web Store",
+    projectUrl: "https://ecommerceapp.ciconia.cloud/",
+    description:
+      "An innovative online audio web store, developed using Java Spring, Next.js, Docker and Keycloak, offering a seamless blend of robust backend functionalities and a user-friendly frontend. Experience streamlined registration, secure logging, and efficient checkout processes.",
+    shortDescription:
+      "An innovative online audio web store crafted with the power of Java Spring and Next.js.",
+    technologies: ["Next.Js", "Spring", "Docker", "Keycloak"],
+    thumbnailUrl: "",
+    slug: "audiophile",
+    timeFrame: "Aug\u00A02023 - Sep\u00A02023",
+    links: [],
   },
   {
     title: "Portfolio",
@@ -38,7 +67,8 @@ export const projectData: ProjectData[] = [
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/3GF7sPJs?inline=true",
     slug: "/",
-    timeFrame: "Dec 2023",
+    timeFrame: "Dec\u00A02023",
+    links: [],
   },
   {
     title: "Mobile Weather",
@@ -51,6 +81,34 @@ export const projectData: ProjectData[] = [
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/irFl3cFv?inline=true",
     slug: "weather",
-    timeFrame: "Jul 2022",
+    timeFrame: "Jul\u00A02022",
+    links: [],
+  },
+  {
+    title: "Professor Managment",
+    projectUrl:
+      "https://github.com/oprisor-raul/Professor-Managment-Fullstack-",
+    description:
+      "The solution includes a Java Spring RESTful API for the back-end and a responsive and intuitive front-end interface for the web application. With features such as course creation, deletion, update, and management, this project provides a streamlined and efficient solution for professors to manage their courses, helping to improve the administrative processes of academic institutions.",
+    shortDescription:
+      "My first attempt at a Full-Stack project: A user-friendly management system for professors and their respective courses.",
+    technologies: ["React", "Java Spring", "Javascript", "HTML", "CSS"],
+    thumbnailUrl: "",
+    slug: "professor-management",
+    timeFrame: "Apr\u00A02023",
+    links: [],
+  },
+  {
+    title: "Museum Managment App",
+    projectUrl: "https://github.com/MAPUBB2022/Museum",
+    description:
+      "Museum management made easy: Art, visitors, artists, and more. The app employs Hibernate to establish a connection with the SQL Server and incorporates JUnit testing.",
+    shortDescription:
+      "Museum management made easy: Art, visitors, artists, and more. The app employs Hibernate to establish a connection with the SQL Server and incorporates JUnit testing.",
+    technologies: ["Java"],
+    thumbnailUrl: "",
+    slug: "museum-management",
+    timeFrame: "Jan\u00A02023",
+    links: [],
   },
 ];

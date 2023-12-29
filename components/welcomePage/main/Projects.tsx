@@ -1,8 +1,8 @@
 import React from "react";
 import MobileHeader from "../../common/MobileSectionHeader";
 import Href from "../../common/Href";
-import { projectData } from "@/data/projectData";
 import ProjectItem from "./ProjectItem";
+import featuredProjectData from "@/data/featuredProjectData";
 
 function Projects() {
   return (
@@ -13,7 +13,7 @@ function Projects() {
     >
       <MobileHeader title="PROJECTS" />
       <ol className="group/list">
-        {projectData.map((item, index) => (
+        {featuredProjectData.map((item, index) => (
           <ProjectItem
             key={index}
             title={item.title}
@@ -24,6 +24,7 @@ function Projects() {
             thumbnailUrl={item.thumbnailUrl}
             slug={item.slug}
             timeFrame={item.timeFrame}
+            links={item.links}
           />
         ))}
       </ol>
