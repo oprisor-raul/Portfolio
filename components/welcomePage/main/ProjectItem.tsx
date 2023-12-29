@@ -43,10 +43,9 @@ const ProjectItem: React.FC<ProjectData> = ({
             </span>
           </a>
         </h3>
-        <p className="mt-2 text-sm leading-normal">{description}</p>
+        <p className="mt-2 text-sm text-vague leading-normal">{description}</p>
         <ListLinks links={links} />
         <ListTechnologies technologies={technologies} />
-        <p>{}</p>
       </div>
       {hasThumbnail && (
         <Image

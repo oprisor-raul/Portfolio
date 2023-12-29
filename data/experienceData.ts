@@ -39,7 +39,7 @@ export const experienceData: ExperienceData[] = [
     workplaceUrl: "https://cs.ubbcluj.ro/",
     positionTitle: "Computer Science Student (in German)",
     description:
-      "In my computer science studies at the University, I've developed more than just technical knowledge. I've learned to write clean, maintainable code, work collaboratively, and communicate effectively, skills that are as essential as coding in the ever-evolving tech world. Furthermore, I had the opportunity to build both team-based and individual projects using a multitude of tech stacks.",
+      "In my computer science studies at the university, I've developed more than just technical knowledge. I've learned to write clean, maintainable code, work collaboratively, and communicate effectively, skills that are as essential as coding in the ever-evolving tech world. Furthermore, I had the opportunity to build both team-based and individual projects using a multitude of tech stacks.",
     technologies: [
       "Object-Oriented Programming",
       "Relational Databases",

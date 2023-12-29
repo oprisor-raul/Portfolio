@@ -8,7 +8,6 @@ interface SocialMediaLinkItemProps {
   href: string;
   ariaLabel: string;
   Icon: React.ReactNode;
-  //   children: React.ReactNode;
 }
 
 function SocialMediaLinkItem({

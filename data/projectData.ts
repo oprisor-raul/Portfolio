@@ -19,7 +19,7 @@ export const projectData: ProjectData[] = [
     title: "Minesweeper",
     projectUrl: "https://github.com/oprisor-raul/Bomb-Bonanza",
     description:
-      "Bomb Bonanza's adventure is unlike any other, offering an exciting, fun-filled experience. Players will tread their way through the minefield to come out victorious. Bomb Bonanza is much like the old-time classic Minesweeper. Players, must move across the field and avoid the bombs. The layout of the game has been skillfully designed to allow seamless play and easy understanding. Players get a fantastic return of 97%",
+      "Bomb Bonanza's adventure is unlike any other, offering an exciting, fun-filled experience. Players will tread their way through the minefield to come out victorious. Bomb Bonanza is much like the old-time classic Minesweeper. Players, must move across the field and avoid the bombs. The layout of the game has been skillfully designed to allow seamless play and easy understanding. Players get a fantastic return of 97%.",
     shortDescription:
       "A reinterpretation of the popular Minesweeper game, written in clean Swift code.",
     technologies: ["Swift"],
