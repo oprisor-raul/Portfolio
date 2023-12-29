@@ -1,9 +1,9 @@
 import { ProjectData } from "@/types";
 import React from "react";
-import HoverHighlightCard from "./HoverHighlightCard";
+import HoverHighlightCard from "../../common/HoverHighlightCard";
 import SvgTopArrow from "@/public/svg/SvgTopArrow";
 import Image from "next/image";
-import ListTechnologies from "./experienceItem/ListTechnologies";
+import ListTechnologies from "../../common/ListTechnologies";
 
 const ProjectItem: React.FC<ProjectData> = ({
   title,

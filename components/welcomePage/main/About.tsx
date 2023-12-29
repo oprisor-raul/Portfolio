@@ -1,5 +1,5 @@
 import React from "react";
-import MobileHeader from "./MobileSectionHeader";
+import MobileHeader from "../../common/MobileSectionHeader";
 
 function About() {
   return (

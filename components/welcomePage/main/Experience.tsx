@@ -1,8 +1,8 @@
 import React from "react";
-import MobileHeader from "./MobileSectionHeader";
+import MobileHeader from "../../common/MobileSectionHeader";
 import ExperienceItem from "./experienceItem/ExperienceItem";
 import { experienceData } from "../../../data/experienceData";
-import Href from "./Href";
+import Href from "../../common/Href";
 
 function Experience() {
   return (

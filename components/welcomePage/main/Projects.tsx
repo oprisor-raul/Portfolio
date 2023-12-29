@@ -1,6 +1,6 @@
 import React from "react";
-import MobileHeader from "./MobileSectionHeader";
-import Href from "./Href";
+import MobileHeader from "../../common/MobileSectionHeader";
+import Href from "../../common/Href";
 import { projectData } from "@/data/projectData";
 import ProjectItem from "./ProjectItem";
 

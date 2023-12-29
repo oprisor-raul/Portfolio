@@ -1,9 +1,9 @@
 import React from "react";
 import ExperienceItemTitleAndPosition from "./ExperienceItemTitleAndPosition";
-import ListTechnologies from "./ListTechnologies";
-import ListLinks from "./ListLinks";
+import ListTechnologies from "../../../common/ListTechnologies";
+import ListLinks from "../../../common/ListLinks";
 import { ExperienceData } from "@/types";
-import HoverHighlightCard from "../HoverHighlightCard";
+import HoverHighlightCard from "../../../common/HoverHighlightCard";
 
 const ExperienceItem: React.FC<ExperienceData> = ({
   startDate,
