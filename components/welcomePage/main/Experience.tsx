@@ -1,7 +1,7 @@
 import React from "react";
 import MobileHeader from "./MobileSectionHeader";
 import ExperienceItem from "./experienceItem/ExperienceItem";
-import { experienceData } from "./experienceItem/experienceData";
+import { experienceData } from "../../../data/experienceData";
 import Href from "./Href";
 
 function Experience() {

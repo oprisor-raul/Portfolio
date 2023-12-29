@@ -1,4 +1,4 @@
-export interface ExperienceItemData {
+export interface ExperienceData {
   startDate: string;
   endDate: string;
   workplace: string;
@@ -7,4 +7,15 @@ export interface ExperienceItemData {
   description: string;
   technologies: string[];
   links: Array<{ url: string; title: string }>;
+}
+
+export interface ProjectData {
+  title: string;
+  projectUrl: string;
+  description: string;
+  shortDescription: string;
+  technologies: string[];
+  thumbnailUrl: string;
+  slug: string;
+  timeFrame: string;
 }

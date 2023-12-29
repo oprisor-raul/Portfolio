@@ -1,6 +1,6 @@
-import { ExperienceItemData } from "@/types";
+import { ExperienceData } from "@/types";
 
-export const experienceData: ExperienceItemData[] = [
+export const experienceData: ExperienceData[] = [
   {
     startDate: "Oct\u00A02023",
     endDate: "Present",
