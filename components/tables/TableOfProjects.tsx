@@ -10,8 +10,8 @@ function TableOfProjects() {
       headings={[
         { text: "Timeframe" },
         { text: "Project" },
-        { text: "Description" },
-        { text: "Built With" },
+        { text: "Description", className: "hidden sm:table-cell" },
+        { text: "Built With", className: "hide-under-375px sm:table-cell" },
       ]}
     >
       {projectData.map((item, index) => (
@@ -28,10 +28,10 @@ function TableOfProjects() {
               {item.title}
             </a>
           </td>
-          <td className={`${defaultStyle} text-vague`}>
+          <td className={`${defaultStyle} text-vague hidden sm:table-cell`}>
             {item.shortDescription}
           </td>
-          <td className={`${defaultStyle}`}>
+          <td className={`${defaultStyle} hide-under-375px sm:table-cell`}>
             <ListTechnologies technologies={item.technologies} />
           </td>
         </tr>

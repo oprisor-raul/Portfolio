@@ -2,6 +2,7 @@ import React from "react";
 
 interface TableHeading {
   text: string;
+  className?: string;
 }
 
 interface CustomTableProps {
@@ -17,7 +18,9 @@ function TableOfContent({ headings, children }: CustomTableProps) {
           {headings.map((heading, index) => (
             <th
               key={index}
-              className={`py-4 pr-8 text-sm font-semibold text-text"`}
+              className={`py-4 pr-8 text-sm font-semibold text-text ${
+                heading.className || ""
+              }`}
             >
               {heading.text}
             </th>

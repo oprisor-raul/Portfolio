@@ -8,7 +8,7 @@ export const projectData: ProjectData[] = [
       "AffecTune is a mobile app that detects emotions through images and recommends songs tailored to these moods. Users can capture a photo, review it, receive an emotion analysis, and then get personalized song recommendations which they can rate and shuffle for new options.",
     shortDescription:
       "Snap a photo, get mood-based song suggestions, and shuffle for more.",
-    technologies: ["React Native"],
+    technologies: ["React\u00A0Native"],
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/sZ85driN?inline=true",
     slug: "affectune",
@@ -54,9 +54,7 @@ export const projectData: ProjectData[] = [
     thumbnailUrl: "",
     slug: "audiophile",
     timeFrame: "Aug\u00A02023 - Sep\u00A02023",
-    links: [
-      { url: "https://ecommerceapp.ciconia.cloud/", title: "Ecommerce-App" },
-    ],
+    links: [],
   },
   {
     title: "Portfolio",

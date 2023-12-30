@@ -16,6 +16,12 @@
   }
 }
 
+@media (max-width: 374px) {
+  .hide-under-375px {
+    display: none;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
