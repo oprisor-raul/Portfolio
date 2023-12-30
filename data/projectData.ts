@@ -66,7 +66,7 @@ export const projectData: ProjectData[] = [
     technologies: ["Next.Js", "Tailwind"],
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/3GF7sPJs?inline=true",
-    slug: "/",
+    slug: "portfolio",
     timeFrame: "Dec\u00A02023",
     links: [],
   },
@@ -92,7 +92,7 @@ export const projectData: ProjectData[] = [
       "The solution includes a Java Spring RESTful API for the back-end and a responsive and intuitive front-end interface for the web application. With features such as course creation, deletion, update, and management, this project provides a streamlined and efficient solution for professors to manage their courses, helping to improve the administrative processes of academic institutions.",
     shortDescription:
       "My first attempt at a Full-Stack project: A user-friendly management system for professors and their respective courses.",
-    technologies: ["React", "Java Spring", "Javascript", "HTML", "CSS"],
+    technologies: ["React", "Spring", "Javascript", "HTML", "CSS"],
     thumbnailUrl: "",
     slug: "professor-management",
     timeFrame: "Apr\u00A02023",
