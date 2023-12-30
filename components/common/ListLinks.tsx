@@ -18,7 +18,7 @@ const ListLinks: React.FC<ListLinksProps> = ({ links }) => {
             aria-label={`${link.title} (opens in a new tab)`}
           >
             <SvgLink
-              className="mr-1 h-3 w-3 hover:red fill-vague hover:fill-primary"
+              className="mr-1 h-3 w-3 fill-vague hover:fill-primary"
               aria-hidden="true"
               viewBox="0 0 20 20"
             />

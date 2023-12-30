@@ -1,5 +1,5 @@
 import React from "react";
-import MobileHeader from "../../common/MobileSectionHeader";
+import MobileHeader from "./MobileSectionHeader";
 import ExperienceItem from "./experienceItem/ExperienceItem";
 import { experienceData } from "../../../data/experienceData";
 import Href from "../../common/Href";

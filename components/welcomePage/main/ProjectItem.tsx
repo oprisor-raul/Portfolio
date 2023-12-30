@@ -1,6 +1,6 @@
 import { ProjectData } from "@/types";
 import React from "react";
-import HoverHighlightCard from "../../common/HoverHighlightCard";
+import HoverHighlightCard from "./HoverHighlightCard";
 import SvgTopArrow from "@/public/svg/SvgTopArrow";
 import Image from "next/image";
 import ListTechnologies from "../../common/ListTechnologies";

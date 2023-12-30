@@ -1,5 +1,5 @@
 import React from "react";
-import MobileHeader from "../../common/MobileSectionHeader";
+import MobileHeader from "./MobileSectionHeader";
 import Href from "../../common/Href";
 import ProjectItem from "./ProjectItem";
 import featuredProjectData from "@/data/featuredProjectData";
