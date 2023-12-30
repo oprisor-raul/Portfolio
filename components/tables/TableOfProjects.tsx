@@ -30,7 +30,7 @@ function TableOfProjects() {
               <span className="group-hover:text-primary">{item.title}</span>
               <SvgTopArrow
                 fill="#EBEAEE"
-                className="ml-1 h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none"
+                className="ml-1 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none"
                 aria-hidden="true"
               />
             </a>
