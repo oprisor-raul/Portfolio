@@ -30,7 +30,7 @@ export const projectData: ProjectData[] = [
     links: [],
   },
   {
-    title: "AI-Powered Web Crawler w/ Mannheim University",
+    title: "AI-Powered Web Crawler · Mannheim University",
     projectUrl: "https://www.uni-mannheim.de/en/",
     description:
       "The focus is to deploy an AI-enabled web crawler to systematically search through business websites and Wikipedia pages, extract pertinent information, and determine the corresponding CAEN codes indicative of a company's operational and structural characteristics.",

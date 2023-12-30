@@ -6,6 +6,10 @@ interface ListLinksProps {
 }
 
 const ListLinks: React.FC<ListLinksProps> = ({ links }) => {
+  if (!links || links.length === 0) {
+    return null;
+  }
+
   return (
     <ul className="mt-2 flex flex-wrap" aria-label="Related links">
       {links.map((link, index) => (

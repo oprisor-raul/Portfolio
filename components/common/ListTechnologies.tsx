@@ -7,6 +7,10 @@ interface ListTechnologiesProps {
 const ListTechnologies: React.FC<ListTechnologiesProps> = ({
   technologies,
 }) => {
+  if (!technologies || technologies.length === 0) {
+    return null;
+  }
+
   return (
     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
       {technologies.map((technology, index) => (

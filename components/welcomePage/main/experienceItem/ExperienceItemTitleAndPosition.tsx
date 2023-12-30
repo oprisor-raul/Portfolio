@@ -14,9 +14,10 @@ const ExperienceItemTitleAndPosition: React.FC<
     <h3 className="font-medium leading-snug text-text">
       <div>
         <a
-          className="inline-flex items-baseline font-medium leading-tight text-text hover:text-primary focus-visible:text-primary group/link"
+          className="group inline-flex items-baseline font-medium leading-tight text-text hover:text-primary focus-visible:text-primary group/link"
           href={workplaceUrl}
           target="_blank"
+          aria-label={`${workplace} (opens in a new tab)`}
           rel="noreferrer noopener"
         >
           <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
