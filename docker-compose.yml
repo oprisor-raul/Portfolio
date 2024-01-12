@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  jenkins:
+    image: myportfolio:latest
+    privileged: true
+    user: root
+    ports:
+      - 3000:3000
+    container_name: myportfolio
+    restart: unless-stopped
+    networks:
+      - portainer_default
+
+networks:
+  portainer_default:
+    external: true
