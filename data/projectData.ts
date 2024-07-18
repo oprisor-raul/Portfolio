@@ -50,7 +50,7 @@ export const projectData: ProjectData[] = [
       "In today's digital era, e-commerce is essential. This project proposes a user-friendly, cost-efficient CMS for small businesses, using Docker, Keycloak, Spring Boot, and Next.js. The web platform includes over 10 screens, such as authentication, browsing, checkout, and an admin dashboard. Additionally, a mobile app for delivery management supports order selection, location display, and map integration.",
     shortDescription:
       "This project develops a user-friendly CMS for small businesses using Docker, Keycloak, Spring Boot, and Next.js, featuring authentication, browsing, checkout, admin dashboard, and a delivery management mobile app.",
-    technologies: ["Next.js", "Spring Boot", "DevOps", "React Native"],
+    technologies: ["Next.js", "Spring Boot", "React Native"],
     thumbnailUrl:
       "https://files.oprisor.dev/api/public/dl/C0k5_ydX?inline=true",
     slug: "ecommerce-cms",
