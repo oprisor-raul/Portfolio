@@ -19,7 +19,7 @@ export const projectData: ProjectData[] = [
     title: "Minesweeper",
     projectUrl: "https://github.com/oprisor-raul/Bomb-Bonanza",
     description:
-      "Bomb Bonanza's adventure is unlike any other, offering an exciting, fun-filled experience. Players will tread their way through the minefield to come out victorious. Bomb Bonanza is much like the old-time classic Minesweeper. Players, must move across the field and avoid the bombs. The layout of the game has been skillfully designed to allow seamless play and easy understanding. Players get a fantastic return of 97%.",
+      "Bomb Bonanza's adventure is unlike any other, offering an exciting, fun-filled experience. Players will tread their way through the minefield to come out victorious. Bomb Bonanza is much like the old-time classic Minesweeper. Players, must move across the field and avoid the bombs. The layout of the game has been skillfully designed to allow seamless play and easy understanding. Players get a return of 97%.",
     shortDescription:
       "A reinterpretation of the popular Minesweeper game, written in clean Swift code.",
     technologies: ["Swift"],
@@ -44,16 +44,17 @@ export const projectData: ProjectData[] = [
     links: [],
   },
   {
-    title: "Audiophile Web Store",
-    projectUrl: "https://ecommerceapp.ciconia.cloud/",
+    title: "High-Performance Hybrid E-Commerce CMS with Next.js",
+    projectUrl: "https://paparo.oprisor.dev/",
     description:
-      "An innovative online audio web store, developed using Java Spring, Next.js, Docker and Keycloak, offering a seamless blend of robust backend functionalities and a user-friendly frontend. Experience streamlined registration, secure logging, and efficient checkout processes.",
+      "In today's digital era, e-commerce is essential. This project proposes a user-friendly, cost-efficient CMS for small businesses, using Docker, Keycloak, Spring Boot, and Next.js. The web platform includes over 10 screens, such as authentication, browsing, checkout, and an admin dashboard. Additionally, a mobile app for delivery management supports order selection, location display, and map integration.",
     shortDescription:
-      "An innovative online audio web store crafted with the power of Java Spring and Next.js.",
-    technologies: ["Next.Js", "Spring", "Docker", "Keycloak"],
-    thumbnailUrl: "",
-    slug: "audiophile",
-    timeFrame: "Aug\u00A02023 - Sep\u00A02023",
+      "This project develops a user-friendly CMS for small businesses using Docker, Keycloak, Spring Boot, and Next.js, featuring authentication, browsing, checkout, admin dashboard, and a delivery management mobile app.",
+    technologies: ["Next.js", "Spring Boot", "DevOps", "React Native"],
+    thumbnailUrl:
+      "https://files.oprisor.dev/api/public/dl/C0k5_ydX?inline=true",
+    slug: "ecommerce-cms",
+    timeFrame: "Sep\u00A02023 - Jun\u00A02024",
     links: [],
   },
   {
@@ -68,6 +69,19 @@ export const projectData: ProjectData[] = [
       "https://files.oprisor.dev/api/public/dl/3GF7sPJs?inline=true",
     slug: "portfolio",
     timeFrame: "Dec\u00A02023",
+    links: [],
+  },
+  {
+    title: "Audiophile Web Store",
+    projectUrl: "https://www.ciconia-systems.com/",
+    description:
+      "An innovative online audio web store, developed using Java Spring, Next.js, Docker and Keycloak, offering a seamless blend of robust backend functionalities and a user-friendly frontend. Experience streamlined registration, secure logging, and efficient checkout processes.",
+    shortDescription:
+      "An innovative online audio web store crafted with the power of Java Spring and Next.js.",
+    technologies: ["Next.Js", "Spring", "Docker", "Keycloak"],
+    thumbnailUrl: "",
+    slug: "audiophile",
+    timeFrame: "Aug\u00A02023 - Sep\u00A02023",
     links: [],
   },
   {

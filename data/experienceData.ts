@@ -8,9 +8,12 @@ export const experienceData: ExperienceData[] = [
     workplaceUrl: "https://ciconia-systems.com/",
     positionTitle: "Junior Full-Stack Developer",
     description:
-      "I am currently developing both frontend and backend components of our internal project, Tenderflow. The objective of Tenderflow is to harness AI's power to identify tenders and assess their compatibility with our team's capabilities. Additionally, the system is designed to generate concise summaries of these opportunities.",
-    technologies: ["Next.Js", "Java Spring", "Tailwind"],
-    links: [],
+      "I am currently developing both the frontend and backend for our project Vergabepilot. The objective is to harness AI's power to identify tenders that suit our client's profile. I also developed frontend components using Nuxt for Matchory, a firm which uses AI to connect clients with suppliers.",
+    technologies: ["Next.Js", "Java Spring", "Tailwind", "Nuxt"],
+    links: [
+      { url: "https://www.vergabepilot.ai/", title: "Vergabepilot" },
+      { url: "https://matchory.com/", title: "Matchory" },
+    ],
   },
   {
     startDate: "Sep\u00A02023",
@@ -28,9 +31,7 @@ export const experienceData: ExperienceData[] = [
       "Docker",
       "Keycloak",
     ],
-    links: [
-      { url: "https://ecommerceapp.ciconia.cloud/", title: "Ecommerce App" },
-    ],
+    links: [],
   },
   {
     startDate: "Sep\u00A02021",
@@ -39,7 +40,7 @@ export const experienceData: ExperienceData[] = [
     workplaceUrl: "https://cs.ubbcluj.ro/",
     positionTitle: "Computer Science Student (in German)",
     description:
-      "In my computer science studies at the university, I've developed more than just technical knowledge. I've learned to write clean, maintainable code, work collaboratively, and communicate effectively, skills that are as essential as coding in the ever-evolving tech world. Furthermore, I had the opportunity to build both team-based and individual projects using a multitude of tech stacks.",
+      "In my computer science studies at the university, I've developed more than just technical knowledge. I've learned to write clean, maintainable code, work collaboratively, and communicate effectively, skills that are as essential as coding in the ever-evolving tech world. Furthermore, I had the opportunity to build both team-based and individual projects using a multitude of tech stacks. I completed my studies with a 10/10 for my thesis on a Next.js E-Commerce CMS and an 8/10 on the written bachelor's exam, ranking top 3 in my class.",
     technologies: [
       "Object-Oriented Programming",
       "Relational Databases",

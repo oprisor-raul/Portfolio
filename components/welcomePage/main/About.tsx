@@ -12,8 +12,8 @@ function About() {
       <div className="text-vague">
         <p className="mb-4">
           In 2021, while pursuing my Computer Science degree at „Babeș-Bolyai”
-          University, I decided to deepen my love for computers by working on
-          side projects. I began by developing iOS apps using
+          University, I decided to deepen my love for computer science by
+          working on side projects. I began by developing iOS apps using
           <span className="text-text"> Swift</span>. Later, I expanded my skills
           to
           <span className="text-text"> Java Spring Boot</span> and subsequently
@@ -35,13 +35,11 @@ function About() {
             Ciconia Systems
           </a>
           , I&apos;m diving into a mix of frontend and backend development,
-          mainly using Next.js and Spring. This work is focused on bringing
-          various features and functionalities to life for our project,
-          Tenderflow.
+          mainly using Next.js and Spring.
         </p>
         <p>
           When I&apos;m not at the computer, I&apos;m usually working out in the
-          gym, photographing or reading.
+          gym, hiking or reading.
         </p>
       </div>
     </section>
